@@ -14,6 +14,4 @@
      str_replace($old_city,$current_city,$str,$count);
      echo $count;
 
-
-
 ?>
