@@ -10,6 +10,7 @@
         "africa" => array('somalia','kenya','libya')
     );
     echo count($countries, COUNT_RECURSIVE);
+    // when we use COUNT_RECURSIVE count() added sub array element
 
 
 ?>
