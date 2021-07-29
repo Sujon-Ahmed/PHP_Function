@@ -12,7 +12,17 @@
     $language = array(5 => 'html', 6 => 'css');
     $serverSiteLanguage = array('php','mysql');
     $add = array_merge($language,$serverSiteLanguage);
-    echo '<pre>';
+    echo '<pre>'; 
         print_r($add);
     echo '</pre>';
+
+    $language = array(5 => 'html', 6 => 'css');
+    $serverSiteLanguage = array('php','mysql');
+    $add = ($language+$serverSiteLanguage);
+    echo '<pre>'; 
+        print_r($add);
+    echo '</pre>';
+
+
+    
 ?>
