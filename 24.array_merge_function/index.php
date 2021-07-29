@@ -23,6 +23,13 @@
         print_r($add);
     echo '</pre>';
 
+    $txt = 'test';
+    $arr = array('code','game');
+    $added = array_merge((array)$txt,$arr);
+    echo '<pre>'; 
+    print_r($added);
+    echo '</pre>';  
 
-    
+
+
 ?>
