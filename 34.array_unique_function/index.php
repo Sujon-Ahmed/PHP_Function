@@ -13,4 +13,14 @@
     // echo '<pre>';
     // print_r($y);
 
+    $continents = array(
+        "Asia" => array('Bangladesh', 'India', 'Pakistan'),
+        "Europe" => array('England', 'France'),
+        "Africa" => array('Somalia', 'kenya', 'Libya'),
+        "Asia" => array('Bangladesh', 'India', 'Pakistan')
+    );
+    $result = array_unique($continents, SORT_REGULAR);
+    echo '<pre>';
+    print_r($result);
+
 ?>
