@@ -25,10 +25,16 @@
 
 
     // professional uses method
+    // $arr = [0 => 454, 1 => 'abc', 2 => 'xyz', 3 => NULL, 4 => false, 5 => 768];
+    // $new_arr = array_filter($arr);
+    // echo '<pre>';
+    // print_r($new_arr);
+
+    // professional uses method with key_values() key reindexed 
     $arr = [0 => 454, 1 => 'abc', 2 => 'xyz', 3 => NULL, 4 => false, 5 => 768];
     $new_arr = array_filter($arr);
     echo '<pre>';
-    print_r($new_arr);
+    print_r(array_values($new_arr));
 
 
 ?>
