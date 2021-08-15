@@ -6,7 +6,14 @@
     // echo '<pre>';
     // print_r($y);
 
-    $x = array('html', 'css', 'php', 'mysql');
+    // without key
+    // $x = array('html', 'css', 'php', 'mysql');
+    // $y = array_flip($x);
+    // echo '<pre>';
+    // print_r($y);
+
+    // same multiple value
+    $x = array('css','html','php','css','mysql');
     $y = array_flip($x);
     echo '<pre>';
     print_r($y);
