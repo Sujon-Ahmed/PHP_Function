@@ -3,4 +3,4 @@
 - [trim_function](#trim_function)
 
 ## Trim_Function
-- [trim_function](01.trim_function/index.php)
+- [trim_function](https://github.com/Sujon-Ahmed/PHP_Function/blob/main/01.trim_%20function/index.php)
