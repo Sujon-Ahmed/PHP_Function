@@ -14,4 +14,4 @@ implode() ফাংশন দিয়ে অ্যারের এলিমেন�
 
 ### explode_function
 পিএইচপিতে explode() ফাংশন দিয়ে একটা স্ট্রিংকে একটা ক্যারেক্টার বা স্ট্রিং দিয়ে ভাগ করে অ্যারে বানানো যায়। এই ফাংশনটি implode() এর বিপরীত।
-    --[Source_Code](https://github.com/Sujon-Ahmed/PHP_Function/blob/main/03.explode_function/index.php)
+    -[Source_Code](https://github.com/Sujon-Ahmed/PHP_Function/blob/main/03.explode_function/index.php)
