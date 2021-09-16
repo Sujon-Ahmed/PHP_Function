@@ -27,6 +27,7 @@ is_array() ফাংশন দিয়ে পিএইচপিতে একটা
 ফাংশনটি অ্যারের এলিমেন্ট গুনে সেই সংখ্যাটি (integer) রিটার্ন করবে।
 ১ম প্যারামিটার $array_or_countable এখানে যে অ্যারেটি গুনতে চান সেটার দিতে হবে। অ্যারে ছাড়াও অবজেক্টের কিছু জিনিস গুনতে পারে তবে মুলত অ্যারের এলিমেন্ট গুনতেই এটা বেশি ব্যবহার হয়। প্যারামিটারটির সামনে mixed এজন্য দেয়া হয়েছে যে, প্যারামিটারটি একটি অ্যারেও হতে পারে আবার একটি অবজেক্টও হতে পারে। ২য় প্যারামিটার বাই ডিফল্ট COUNT_NORMAL এটা থাকে। এটা ছাড়া COUNT_RECURSIVE দিতে পারেন। মাল্টিডাইমেনশনাল অ্যারে count এর জন্য এটা দিতে হয়।
 মাল্টিডাইমেনশনাল অ্যারে count (COUNT_RECURSIVE প্যারামিটারের ব্যবহার)
+<pre>
 <code>
 $continents = array(
 3.
@@ -40,7 +41,7 @@ $continents = array(
 7.
 echo count($continents,COUNT_RECURSIVE);
 </code>
+</pre>
 Output : 11
 এখানে COUNT_RECURSIVE না দিলে আউটপুট 3 দেখাত কারন তখন সাবঅ্যারেগুলির এলিমেন্ট count করতনা।
-    
--[Source_Code](https://github.com/Sujon-Ahmed/PHP_Function/blob/main/05.count_function/index.php)
+   -[Source_Code](https://github.com/Sujon-Ahmed/PHP_Function/blob/main/05.count_function/index.php)
